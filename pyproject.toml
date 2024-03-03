@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-web-hw9"
+version = "0.1.0"
+description = ""
+authors = ["Val <yermakvaleriy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+lxml = "^5.1.0"
+mongo = "^0.2.0"
+sqlalchemy = "^2.0.27"
+mongoengine = "^0.27.0"
+playwright = "^1.41.2"
+scrapy = "^2.11.1"
+scrapyscript = "^1.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
